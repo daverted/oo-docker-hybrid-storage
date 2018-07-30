@@ -7,4 +7,7 @@ RUN curl -o takipi-storage-latest.tar.gz \
     && tar zxvf takipi-storage-latest.tar.gz -C /opt \
     && rm -rf takipi-storage-latest.tar.gz
 
-ENTRYPOINT java -jar /opt/takipi-storage/lib/takipi-storage.jar server /opt/takipi-storage/settings.yml
+ADD run.sh /run.sh
+RUN chmod a+x /run.sh
+
+CMD ["/run.sh"]
