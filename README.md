@@ -9,7 +9,7 @@ This image contains the [OverOps](http://www.overops.com) Storage Server which i
 #### Building the Image
 
 ```bash
-docker build --no-cache -t timveil/oo-docker-hybrid-storage .
+docker build --no-cache -t timveil/oo-docker-hybrid-storage:latest .
 ```
 
 #### Publishing the Image
