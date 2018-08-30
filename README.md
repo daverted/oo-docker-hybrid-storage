@@ -21,5 +21,5 @@ docker push timveil/oo-docker-hybrid-storage:latest
 #### Running the Image
 
 ```bash
-docker run timveil/oo-docker-hybrid-storage
+docker run timveil/oo-docker-hybrid-storage:latest
 ```
